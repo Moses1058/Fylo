@@ -1,0 +1,646 @@
+* {
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+    box-sizing: border-box;
+    font-style: normal;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+img {
+    display: inline-block;
+}
+a {
+    color: #07043B;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;    
+    margin-left: 25px;
+}
+button {
+    cursor: pointer;
+    width: 100%;
+    display: block;
+    border: none;
+        /* Font */
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    background-color: #2F65F8;
+}
+button:hover {
+    background-color: #6C9BFF;
+}
+
+/* ////////////////////////////
+General Font Styles 
+//////////////////////////// */
+
+h1, h2, h3, a, button {
+    font-family: 'Raleway';
+}
+p {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #07043B;
+}
+h1, h2, h3 {
+    font-weight: 700;
+    color: #07043B;
+}
+
+/* ////////////////////////////
+Specific Font Styles 
+//////////////////////////// */
+
+h1 {
+    font-size: 24px;
+    line-height: 36px;    
+}
+#features p {
+    margin: 24px 16px 32px 8px;   
+    max-width: 536px;
+}
+h2 {
+    font-size: 16px;
+    line-height: 24px;   
+}
+.team p {
+    color: #615F7E;
+}
+#first-p {
+    margin: 24px 0px 16px 0px;
+}
+#see {
+    font-size: 12px;
+    line-height: 16px;
+    color: #3DA08F;
+    display: inline-block;
+    margin: 0px 6px 6px 0px;
+
+}
+.employ-quotes p {
+    font-size: 10px;
+    line-height: 18px;
+    letter-spacing: 0.384615px;
+    color: #07043B;
+}
+#name {
+    font-weight: 700;
+    font-size: 9px;
+    line-height: 12px;
+    letter-spacing: 0.45px;
+}
+#position {
+    font-size: 6px;
+    line-height: 12px;
+    letter-spacing: 0.3px;
+}
+
+h3 {
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.sign-in p {
+    color: #FFFFFF;
+    margin: 16px 0px 24px 0px;
+    max-width: 529px;
+}
+
+footer p{
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+footer p:hover {
+    color: #6C9BFF;
+}
+
+/* //////////////
+Header styling
+////////////// */
+
+[alt=logo-colorise] {
+    width: 80px;
+    height: 24px;
+}
+header {
+    padding: 24px 24px 0px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* /////////////////
+Features section
+///////////////// */
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#features {
+    padding: 98px 27px 0px 28px;
+}
+[alt=feature-image] {
+    width: 95%;
+    margin-bottom: 40px;
+}
+
+
+/* Form styling 
+////////////// */
+
+#features form {
+    width: 100%;
+    padding: 0px 8px 0px 8px;   
+}
+
+input {
+    width: 100%;
+    /* Placeholder */
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;    
+    letter-spacing: 0.4px;
+}
+
+#features input {
+    width: 100%;
+    border: 0.625px solid #07043B;
+    box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.15925);
+    margin-bottom: 16px;
+    border-radius: 3.125px;
+    padding: 12px 0px 12px 21px;
+
+}
+
+#button-1{
+    padding: 12px 0px;
+    box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.15925);
+    border-radius: 3.125px;  
+}
+
+
+
+
+/* ////////////////////
+Team Section
+//////////////////// */
+
+.team {
+    background-image: url(./assets/bg/bg-curve-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: 556% 100%;
+    background-position-x: center;
+    padding: 93px 27px 81.9px 28px;
+    margin-top: 90px;
+}
+[alt=team-image] {
+    width: 100%;
+    margin-bottom: 87px;
+}
+.see {
+    margin: 36px 0px 40px 0px;
+    width: 130px;
+    display: inline-block;
+    position: relative;
+    text-align: left;
+    cursor: pointer;
+
+}
+.see:hover #see, hr{
+    color: #71DFCC;
+}
+[alt=icon-arrow] {
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    top: 3px;
+}
+hr {
+    height: 0;
+    border: 0.5px solid #3DA08F;
+}
+
+/* ////////////////
+Employ quotes
+//////////////// */
+
+.employ-quotes {
+    width: 87.5%; 
+    background-color: #FFFFFF;
+    text-align: left;
+    padding: 9.44px 12.74px 18.62px 25.96px;
+    max-width: 450px;
+    box-shadow: 0px 0px 8px 4px rgba(56, 56, 56, 0.0458843);
+    border-radius: 3.93258px;
+    margin: 0px 20px 0px 28px;
+
+}
+[alt=avatar] {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.avatar {
+    margin-top: 11.94px;
+    width: 105px;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 12px 12px;
+    column-gap: 7.45px;
+    row-gap: 1.8px;
+}
+
+
+/* /////////////////
+Sign-in Section 
+///////////////// */
+
+.sign-in {
+    background-color: #575988;
+    padding: 54px 47px 71px 48px;
+}
+
+.sign-in form {
+    padding: 0px 22px 0px 18px;
+    width: 100%;
+}
+.sign-in input {
+    background-color: #FFFFFF;
+    box-shadow: 1px 1px 3px rgba(7, 4, 59, 0.157043);
+    border-radius: 1.47059px;
+    width: 100%;
+    padding: 11px 0px 9px 8px;
+    border: none;
+    margin-bottom: 8px;
+}
+#button-2 {
+    padding: 11px 70.59px 9px 71px;
+    box-shadow: 1px 1px 3px rgba(7, 4, 59, 0.157043);
+    border-radius: 1.47059px;
+    font-size: 10px;
+    line-height: 12px;
+}
+
+
+/* //////////////////////////
+Footer Styling
+////////////////////////// */
+
+footer {
+    background-color: #07043B;
+    padding: 65px 39px 42px 39px;
+    display: flex;
+    flex-direction: column;
+}
+.logo-white{
+    width: 105px;
+    height: 30px;
+    margin-bottom: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.contact-info {
+    display: flex;
+    align-items: center;
+}
+.email-info {
+    margin-top: 16px;
+}
+.contact-info img {
+    width: 18px;
+    height: 18px;
+    margin-right: 16px;
+}
+
+.column-1 {
+    margin: 32px 0px;
+}
+.soc-media {
+    margin: 32px 0px 0px 0px;
+    align-self: center;
+    display: flex;
+    width: 104px;
+    justify-content: space-between;
+}
+.soc-media img{
+    cursor: pointer;
+}
+.soc-media img:hover {
+    filter: invert(64%) sepia(33%) saturate(1000%) hue-rotate(189deg) brightness(180%) contrast(101%);
+}
+
+
+
+
+
+/* ===========================
+Styling for Desktop Devices
+=========================== */
+
+@media only screen and (min-width: 1024px) {
+    .backbone {
+        width: 1440px;
+        overflow: hidden;
+    }
+    a {
+        font-size: 16px;
+        line-height: 19px;    
+        margin-left: 57px;
+    }
+    button {
+        width: auto;
+        display: inline-block;
+    }
+    /* ///////////
+    Fonts
+    /////////// */
+    p {
+        font-size: 17px;
+        line-height: 24px;
+        letter-spacing: 0.53125px;
+    }
+    /* ////////////////////////////
+    Specific Font Styles 
+    //////////////////////////// */ 
+    h1 {
+        font-size: 40px;
+        line-height: 60px;
+    }
+    #features p {
+        margin: 15px 0px 25px 0px;   
+        max-width: 585px;
+    }
+    h2 {
+        font-size: 40px;
+        line-height: 47px;   
+    }
+    .team p {
+        color: #07043B;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    #first-p {
+        margin: 38px 0px 16px 0px;
+    }
+    #first-p, #second-p {
+        max-width: 529px;
+    }
+    #see {
+        font-size: 16px;
+        line-height: 22px;
+        color: #3DA08F;
+        margin: 0px 8px 4px 0px;
+    }
+    .employ-quotes p {
+        font-size: 13px;
+        line-height: 23px;
+        letter-spacing: 0.5px;
+    }
+    #name {
+        font-size: 11px;
+        line-height: 15px;
+        letter-spacing: 0.55px;
+        padding-top: 1.5px;
+    }
+    #position {
+        font-size: 8px;
+        line-height: 15px;
+        letter-spacing: 0.4px;
+    }
+    h3 {
+        font-size: 32px;
+        line-height: 48px;
+    }
+    .sign-in p {
+        font-size: 16px;
+        margin: 17px 0px 0px 0px;
+        max-width: 533px;
+    }
+
+    /* //////////////
+    Header Element
+    ////////////// */
+    [alt=logo-colorise] {
+        width: 166px;
+        height: 49px;
+    }
+    header {
+        padding: 65px 80px 0px 80px;
+    }
+    
+    /* /////////////////
+    Features section
+    ///////////////// */
+    section {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        text-align: left;
+    }
+    #features {
+        padding: 86px 80px 0px 80px;
+
+
+    }
+    [alt=feature-image] {
+        width: 50%;
+        margin-bottom: 0px;
+        order: 1;
+    }
+
+
+    /* Form styling 
+    ////////////// */
+
+    #features form {
+        width: auto;
+        padding: 0px 0px 0px 0px;   
+    }
+
+    input {
+        width: auto;
+        /* Placeholder */
+        font-size: 14px;
+        line-height: 19px;
+        letter-spacing: 0.4px;
+    }
+
+    #features input {
+        width: 50%;
+        margin: 0px;
+        padding: 14px 0px 12px 21px;
+        margin-right: 16px;
+    }
+    #button-1{
+        width: 31.25%;
+        padding: 14.5px 0px;
+    }
+
+    /* ////////////////////
+    Team Section
+    //////////////////// */
+
+    .team {
+        background-image: url(./assets/bg/bg-curve-desktop.svg);
+        background-size: 256% 100%;
+        padding: 178px 80px 107px 80px;
+        margin-top: 164px;
+    }
+    [alt=team-image] {
+        width: 42.34%;
+        margin: 0px;
+        order: 1;
+    }
+    .see {
+        margin: 15px 0px 45px 0px;
+        width: 175px;
+        display: inline-block;
+        position: relative;
+        text-align: left;
+    }
+    [alt=icon-arrow] {
+        position: absolute;
+        top: 7px;
+    }
+
+    /* ////////////////
+    Employ quotes
+    //////////////// */
+
+    .employ-quotes {
+        width: 87.5%; 
+        padding: 30px 34px 26px 33px;
+        max-width: 356px;
+        border-radius: 5px;
+        margin: 0px 0px 0px 0px;
+        display: inline-block;
+
+    }
+    [alt=avatar] {
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        grid-row-start: 1;
+        grid-row-end: 3;
+    }
+    .avatar {
+        margin-top: 16px;
+        width: 150px;
+        display: grid;
+        grid-template-columns: 32px auto;
+        grid-template-rows: 15px 15px;
+        column-gap: 6px;
+        row-gap: 0;
+    }
+
+    /* /////////////////
+    Sign-in Section 
+    ///////////////// */
+
+    .sign-in {
+        padding: 100px 120px 76px 80px;
+    }
+
+    .sign-in form {
+        padding: 0px;
+        width: 38.71%;
+    }
+    .sign-in input {
+        border-radius: 3.125px;
+        width: 100%;
+        padding: 16px 0px 18px 22px;
+        margin-bottom: 16px;
+    }
+    #button-2 {
+        padding: 16px 0px 16px 0px;
+        width: 41.67%;
+        border-radius: 3.125px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    /* //////////////////////////
+    Footer Styling
+    ////////////////////////// */
+
+    footer {
+        height: 391px;
+        padding: 92px 261px 159px 80px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    [alt=logo-icon] {
+        width:46px;
+        height: 37px;
+    }
+    [alt=logo-name]{
+        width: 76px;
+        height: 39px;
+    }
+    .logo-white{
+        width: 135px;
+        height: 39px;
+        margin-bottom: 37px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .contact-info {
+        display: flex;
+    }
+    .column-1 {
+        margin: 77px 0px 0px 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 136px;
+    }
+    .column-2 {
+        margin-top: 77px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 98px;
+    }
+    .soc-media {
+        margin: 77px 0px 0px 0px;
+        align-self: flex-start;
+        display: flex;
+        width: 120px;
+        justify-content: space-between;
+    }
+    .soc-media img {
+        width: 32px;
+        height: 31px;
+    }
+
+}
+@media only screen and (max-width: 1024px) {
+    .first-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
